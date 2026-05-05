@@ -36,3 +36,9 @@ cp .env.example .env
 ```bash
 docker compose up -d
 ```
+
+После запуска: 
+- веб-интерфейс Airflow будет доступен по адресу: http://localhost:8080
+(Логин: airflow, Пароль: airflow)
+- веб-интерфейс Superset будет доступен по адресу: http://localhost:8088
+(Логин: airflow, Пароль: airflow)
