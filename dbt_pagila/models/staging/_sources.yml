@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: pagila
+    schema: staging
+    tables:
+      - name: stg_payment
+      - name: stg_customer
+      - name: stg_address
+      - name: stg_city
+      - name: stg_country
+      - name: stg_store
+      - name: stg_staff
+      - name: stg_film
+      - name: stg_language
+      - name: stg_film_category
+      - name: stg_category
+      - name: stg_inventory
+      - name: stg_rental
+
+

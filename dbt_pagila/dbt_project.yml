@@ -1,0 +1,14 @@
+name: 'dbt_pagila'
+profile: 'pagila_dwh'
+
+vars:
+  load_start_date: '2020-01-01'
+
+models:
+  dbt_pagila:
+    staging:
+      +schema: staging  
+    core:
+      +schema: dw
+    mart:
+      +schema: dm

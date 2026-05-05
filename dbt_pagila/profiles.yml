@@ -1,0 +1,12 @@
+pagila_dwh:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      port: 5432
+      user: airflow
+      password: airflow
+      database: pagila_dw
+      schema: dbt
+      threads: 2
