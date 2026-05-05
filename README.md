@@ -54,4 +54,4 @@ copy .env.example .env # cmd в Windows
    (Логин: airflow, Пароль: airflow)
 
 4. Импортируйте дашборд из \dasboards\superset\ через веб-интерфейс Superset:
-Dashboards → значок импорта → выберите файл .zip
+   - Dashboards → значок импорта → выберите файл .zip
