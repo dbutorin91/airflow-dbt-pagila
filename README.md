@@ -22,18 +22,21 @@ graph LR
     D --> E[Витрины данных / BI]
 ```
 
-Установка и запуск
+## 🚀 Быстрый старт
+Установка и запуск:
 1. Клонируйте репозиторий:
 
 ```bash
-git clone [url-вашего-репозитория]
-cd [название-проекта]
+git clone https://github.com/dbutorin91/airflow-dbt-pagila.git
+cd airflow-dbt-pagila
 ```
 
 2. Настройте переменные окружения:
 
 ```bash
 cp .env.example .env
+# или
+copy .env.example .env # cmd в Windows
 ```
 
 3. Запустите инфраструктуру через Docker:
